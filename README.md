@@ -3,13 +3,13 @@
 
 **Table of Contents**
 
-- [Intro](#intro)
-- [Buildintructions](#buildintructions)
+- [Introduction](#intro)
+- [Construction Guide](#constructionguide)
 - [Calibration](#calibration)
 - [Technical data](#technical-data)
 - [License](#license)
 
-## Intro<a name="intro"></a>
+## Introduction<a name="intro"></a>
 
 - Modul Frontpanel
 
@@ -20,13 +20,13 @@
 ![Modul: 1MoreF Backside](./doc/pictures/1MoreF_ModulBackKomlete.png)
 
 
-## Buildintructions<a name="buildintructions"></a>
+## Construction Guide<a name="constructionguide"></a>
 
-- TBD
+- [Details](./doc/constructionguide.md)
 
 ## Calibration<a name="calibration"></a>
 
-- TBD
+- [Details](./doc/calibration.md)
 
 
 ## Technical data<a name="technical-data"></a>
@@ -40,16 +40,15 @@
   +12Volt, 25mA  
   -12Volt, 25mA  
 
-- frequency range: 30Hz to 20kHz.
+- frequency range: 20Hz to 20kHz.
 - frequency CV scale: 1V/Oct.
 - signal input, AC-coupled signal path.
 - modulation inputs, DC-coupled signal path.
 - signal input impedance: > 50kOhm.
-- CV-Input impedance: 100kOhm.
 - signal output impedance: 470 Ohm.
-
+- CV-Input impedance: 100kOhm.
 
 
 ## License<a name="license"></a>
-> Hardware:cc by-sa-4.0
+> Hardware:cc by-nc-sa 4.0
 
