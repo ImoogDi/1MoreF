@@ -27,47 +27,47 @@ There are five 3.5mm jacks available for patching audio- and CV-signals.
 
 Jack-Name | Function                       | Comment
 ----------|--------------------------------|-----------------------------------
-IN        | audio-input                    | Level adjustable between 0 ...  2
-ResCV     | CV-input for resonance control | Level adjustable between 0 ... 10
-          |                                | (only positiv voltage is used,
-          |                                |  negativ voltages are clipped)
-Mod.      | CV-input for modulation control| Level adjustable between -  0  +
-OUT       | audio-output for HP/LP/BP mode | audio-output attached to switch
-          | (12dB/octave)                  |  HP := High pass mode
-          |                                |  LP := Low pass mode
-          |                                |  BP := Band pass mode
-LP24      | audio-output for LP mode only  | Low pass only audio-output with
-          | (24dB/octave)                  | 24dB/octave
-          |                                | (simultaneously usable with 'OUT')
+IN        | audio-input                    | Level adjustable between 0 ...  2  
+ResCV     | CV-input for resonance control | Level adjustable between 0 ... 10  
+          |                                | (only positiv voltage is used,  
+          |                                |  negativ voltages are clipped)  
+Mod.      | CV-input for modulation control| Level adjustable between -  0  +  
+OUT       | audio-output for HP/LP/BP mode | audio-output attached to switch  
+          | (12dB/octave)                  |  HP := High pass mode  
+          |                                |  LP := Low pass mode  
+          |                                |  BP := Band pass mode  
+LP24      | audio-output for LP mode only  | Low pass only audio-output with  
+          | (24dB/octave)                  | 24dB/octave  
+          |                                | (simultaneously usable with 'OUT')  
           |                                |
 
-There are sixs potentiometers with following functions:  
+There are six potentiometers with following functions:  
 
 Poti-Name | Function                       | Comment
 ----------|--------------------------------|-----------------------------------
-Frequency | Cut-Off frequency 20Hz to 20kHz| Filter cutoff frequency, range:
-          |                                | min := < 20 Hz
-          |                                | max := > 20kHz
-          |                                | 12 o'clock position := 440Hz
-Track     | Keyboard-CV tracking potentiom.| Keyboard-CV tracking adjustable
-          |                                |  0 := None
-          |                                |  1 := 1V/octave
-Res.      | Resonance potentiometer        | Resonance adjustment
-          |                                |  0 := None
-          |                                | 10 := maximum, self oscillation 
-          |                                | 12 o'clock position := starting oscillation
-IN        | Audio input-level attenuator   | Level adjustable between 0 ... 2
-          |                                |  0 := No audio signal from IN-jack
-          |                                |  1 := audio signal OUT-level is 1 * IN-level
-          |                                |  2 := audio signal OUT-level is 2 * IN-level
-ResCV     | Resonance-CV attenuator        | Resonance-CV attenuator
-          |                                |  0 := None
-          |                                | 10 := maximum
-Mod.      | Modulation-CV attenuverter     | Modulation-CV attenuverter, controlling
-          |                                | the amount and polarity of modulation
-          |                                |  - := negative modulation
-          |                                |  + := positive modulation
-          |                                |  0 := no modulation
+Frequency | Cut-Off frequency 20Hz to 20kHz| Filter cutoff frequency, range:  
+          |                                | min := < 20 Hz  
+          |                                | max := > 20kHz  
+          |                                | 12 o'clock position := 440Hz  
+Track     | Keyboard-CV tracking potentiom.| Keyboard-CV tracking adjustable  
+          |                                |  0 := None  
+          |                                |  1 := 1V/octave  
+Res.      | Resonance potentiometer        | Resonance adjustment  
+          |                                |  0 := None  
+          |                                | 10 := maximum, self oscillation  
+          |                                | 12 o'clock position := starting oscillation  
+IN        | Audio input-level attenuator   | Level adjustable between 0 ... 2  
+          |                                |  0 := No audio signal from IN-jack  
+          |                                |  1 := audio signal OUT-level is 1 * IN-level  
+          |                                |  2 := audio signal OUT-level is 2 * IN-level  
+ResCV     | Resonance-CV attenuator        | Resonance-CV attenuator  
+          |                                |  0 := None  
+          |                                | 10 := maximum  
+Mod.      | Modulation-CV attenuverter     | Modulation-CV attenuverter, controlling  
+          |                                | the amount and polarity of modulation  
+          |                                |  - := negative modulation  
+          |                                |  + := positive modulation  
+          |                                |  0 := no modulation  
           |                                |
 
 
