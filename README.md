@@ -25,50 +25,199 @@ All parts are common available and DIY-friendly designed.
 
 There are five 3.5mm jacks available for patching audio- and CV-signals.  
 
-Jack-Name | Function                       | Comment
-----------|--------------------------------|-----------------------------------
-IN        | audio-input                    | Level adjustable between 0 ...  2  
-ResCV     | CV-input for resonance control | Level adjustable between 0 ... 10  
-          |                                | (only positiv voltage is used,  
-          |                                |  negativ voltages are clipped)  
-Mod.      | CV-input for modulation control| Level adjustable between -  0  +  
-OUT       | audio-output for HP/LP/BP mode | audio-output attached to switch  
-          | (12dB/octave)                  |  HP := High pass mode  
-          |                                |  LP := Low pass mode  
-          |                                |  BP := Band pass mode  
-LP24      | audio-output for LP mode only  | Low pass only audio-output with  
-          | (24dB/octave)                  | 24dB/octave  
-          |                                | (simultaneously usable with 'OUT')  
-          |                                |
+<table>
+<tr>
+    <th>Jack-Name</th>
+    <th>Function</th>
+    <th>Comment</th>
+</tr>
+<tr>
+    <td>IN</td>
+    <td>audio-input</td>
+    <td>Level adjustable between 0 ...  2</td>
+</tr>
+<tr>
+    <td>ResCV</td>
+    <td>CV-input for resonance control</td>
+    <td>Level adjustable between 0 ... 10</td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td>(only positiv voltages are used,</td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td>negativ voltages are clipped)</td>
+</tr>
+<tr>
+    <td>Mod.</td>
+    <td>CV-input for modulation control</td>
+    <td>Level adjustable between -  0  +</td>
+</tr>
+<tr>
+    <td>OUT</td>
+    <td>audio-output for HP/LP/BP mode</td>
+    <td>audio-output attached to switch</td>
+</tr>
+<tr>
+    <td></td>
+    <td>(12dB/octave)</td>
+    <td> HP := High pass mode</td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td> LP := Low pass mode</td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td> BP := Band pass mode</td>
+</tr>
+<tr>
+    <td>LP24</td>
+    <td>audio-output for LP mode only</td>
+    <td>Low pass only audio-output with</td>
+</tr>
+<tr>
+    <td></td>
+    <td>(24dB/octave)</td>
+    <td>24dB/octave</td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td>(simultaneously usable with 'OUT')</td>
+</tr>
+</table>
+
 
 There are six potentiometers with following functions:  
 
-Poti-Name | Function                       | Comment
-----------|--------------------------------|-----------------------------------
-Frequency | Cut-Off frequency 20Hz to 20kHz| Filter cutoff frequency, range:  
-          |                                | min := < 20 Hz  
-          |                                | max := > 20kHz  
-          |                                | 12 o'clock position := 440Hz  
-Track     | Keyboard-CV tracking potentiom.| Keyboard-CV tracking adjustable  
-          |                                |  0 := None  
-          |                                |  1 := 1V/octave  
-Res.      | Resonance potentiometer        | Resonance adjustment  
-          |                                |  0 := None  
-          |                                | 10 := maximum, self oscillation  
-          |                                | 12 o'clock position := starting oscillation  
-IN        | Audio input-level attenuator   | Level adjustable between 0 ... 2  
-          |                                |  0 := No audio signal from IN-jack  
-          |                                |  1 := audio signal OUT-level is 1 * IN-level  
-          |                                |  2 := audio signal OUT-level is 2 * IN-level  
-ResCV     | Resonance-CV attenuator        | Resonance-CV attenuator  
-          |                                |  0 := None  
-          |                                | 10 := maximum  
-Mod.      | Modulation-CV attenuverter     | Modulation-CV attenuverter, controlling  
-          |                                | the amount and polarity of modulation  
-          |                                |  - := negative modulation  
-          |                                |  + := positive modulation  
-          |                                |  0 := no modulation  
-          |                                |
+<table>
+<tr>
+    <th>Poti-Name</th>
+    <th>Function</th>
+    <th>Comment</th>
+</tr>
+<tr>
+    <td>Frequency</td>
+    <td>Cut-Off frequency 20Hz to 20kHz</td>
+    <td>Filter cutoff frequency, range:</td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td>min := &#60; 20 Hz</td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td>max := > 20kHz</td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td>12 o'clock position := 440Hz</td>
+</tr>
+<tr>
+    <td>Track</td>
+    <td>Keyboard-CV tracking potentiom.</td>
+    <td>Keyboard-CV tracking adjustable</td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td>0 := None</td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td>1 := 1V/octave</td>
+</tr>
+<tr>
+    <td>Res.</td>
+    <td>Resonance potentiometer</td>
+    <td>Resonance adjustment</td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td>0 := None</td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td>10 := maximum, self oscillation</td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td>12 o'clock position := starting oscillation</td>
+</tr>
+<tr>
+    <td>IN</td>
+    <td>Audio input-level attenuator</td>
+    <td>Level adjustable between 0 ... 2</td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td>0 := No audio signal from IN-jack</td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td>1 := audio signal Out-level is 1 * IN-level</td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td>2 := audio signal Out-level is 2 * IN-level</td>
+</tr>
+<tr>
+    <td>ResCV</td>
+    <td>Resonance-CV attenuator</td>
+    <td>Resonance-CV attenuator</td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td>0 := None</td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td>10 := maximum</td>
+</tr>
+<tr>
+    <td>Mod.</td>
+    <td>Modulation-CV attenuverter</td>
+    <td>Modulation-CV attenuverter, controlling</td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td>the amount and polarity of modulation</td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td>- := negative modulation</td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td>+ := positive modulation</td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td>0 := no modulation</td>
+</tr>
+</table>
 
 
 ## Technical data<a name="technical-data"></a>
