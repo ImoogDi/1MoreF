@@ -7,6 +7,7 @@
 - [Construction Guide](./doc/constructionguide.md)
 - [Calibration](./doc/calibration.md)
 - [Technical data](#technical-data)
+- [References](#references)
 - [License](#license)
 
 ## Introduction<a name="intro"></a>
@@ -119,7 +120,11 @@ There are six potentiometers with following functions:
 - signal output impedance: 470 Ohm.
 - CV-Input impedance: 100kOhm.
 
+## References<a name="references"></a>
+
+* [electric druid, Multimode filters Part2](https://electricdruid.net/multimode-filters-part-2-pole-mixing-filters/)
+* [AN701 Designing Voltage Controlled Filters](http://www.soundsemiconductor.com/downloads/AN701.pdf)
 
 ## License<a name="license"></a>
-> Hardware:cc by-nc-sa 4.0
+> Hardware:cc by-nc-sa 4.0  ([details](https://creativecommons.org/licenses/by-nc-sa/4.0/))
 
